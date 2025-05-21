@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/cart"
+            android:icon="@drawable/cart_home"
+            android:title="cart"/>
+        <item
+            android:id="@+id/orders"
+            android:icon="@drawable/love_home"
+            android:title="Order"/>
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/user_home"
+            android:title="Profile"/>
+    </group>
+</menu>

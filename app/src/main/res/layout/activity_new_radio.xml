@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.NewRadioActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearlanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Language"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="18dp"
+            android:textSize="15dp"
+            android:textColor="@color/black" />
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp">
+            <RadioButton
+                android:id="@+id/radio_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  English"
+                android:checked="false"
+                android:textSize="12dp"/>
+            <RadioButton
+                android:id="@+id/radio_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Telugu"
+                android:checked="false"
+                android:textSize="12dp" />
+            <RadioButton
+                android:id="@+id/radio_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Hindi"
+                android:checked="false"
+                android:textSize="12dp" />
+        </RadioGroup>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/relativecontinue"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/botton_red"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="12dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

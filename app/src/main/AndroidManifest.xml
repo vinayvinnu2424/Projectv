@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectV"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.MonthlyexpensesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RegisternumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SavereceiptActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.DonorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.OtploginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.NewRadioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Razorpay_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Register_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Drawer_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Calender_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Spin_Rate_RadioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Banners_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.APIS_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Navigation_Drawer"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDh15Ozxf_SRN-y3evwKLAmfPpfSyPaONE" />
+
+        <activity
+            android:name=".Activities.GoogleMap_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Gmail_Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Otp_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Fragments_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Methods_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Splash_Activty"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_NlBUQDrc6gvpan" />
+    </application>
+
+</manifest>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Methods_Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/bt_register"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:text="Register"/>
+            <Button
+                android:id="@+id/bt_fragments"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/bt_register"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="Fragments"/>
+            <Button
+                android:id="@+id/bt_popup"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/bt_fragments"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="Popup" />
+            <Button
+                android:id="@+id/bt_otp"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_popup"
+                android:layout_marginTop="15dp"
+                android:text="OTP from Firebase"/>
+            <Button
+                android:id="@+id/bt_gmail"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/bt_otp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="Gmail Login" />
+            <Button
+                android:id="@+id/bt_googlemap"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_gmail"
+                android:layout_marginTop="15dp"
+                android:text="Google Map"/>
+            <Button
+                android:id="@+id/bt_botmpopup"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_googlemap"
+                android:layout_marginTop="15dp"
+                android:text="Bottom popup"/>
+            <Button
+                android:id="@+id/bt_share"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_botmpopup"
+                android:layout_marginTop="15dp"
+                android:text="Share"/>
+            <Button
+                android:id="@+id/bt_login"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_share"
+                android:layout_marginTop="15dp"
+                android:text="Log In"/>
+            <Button
+                android:id="@+id/bt_apis"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_login"
+                android:layout_marginTop="15dp"
+                android:text="Apis"/>
+            <Button
+                android:id="@+id/bt_banners"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_apis"
+                android:layout_marginTop="15dp"
+                android:text="Banners"/>
+            <Button
+                android:id="@+id/bt_srr"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_banners"
+                android:layout_marginTop="15dp"
+                android:text="SRR"/>
+            <Button
+                android:id="@+id/bt_calender"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_srr"
+                android:layout_marginTop="15dp"
+                android:text="Date and Time"/>
+
+            <Button
+                android:id="@+id/bt_drawer"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_calender"
+                android:layout_marginTop="15dp"
+                android:text="Drawer"/>
+
+            <Button
+                android:id="@+id/bt_razorpay"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_drawer"
+                android:layout_marginTop="15dp"
+                android:text="Razor pay"/>
+
+            <Button
+                android:id="@+id/bt_new"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bt_razorpay"
+                android:layout_marginTop="15dp"
+                android:text="New"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

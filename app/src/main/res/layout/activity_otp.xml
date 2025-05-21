@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Otp_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <TextView
+            android:id="@+id/txt_projv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project V"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+  <EditText
+      android:id="@+id/edit_mobileno"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_below="@+id/txt_projv"
+      android:layout_marginTop="25dp"
+      android:layout_marginLeft="30dp"
+      android:layout_marginRight="30dp"
+      android:hint="Mobile Number"/>
+        <Button
+            android:id="@+id/bt_getotp"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edit_mobileno"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/red"
+            android:text="Get Otp"/>
+        <EditText
+            android:id="@+id/edit_otp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/bt_getotp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Enter OTP"/>
+        <Button
+            android:id="@+id/bt_register"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edit_otp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/red"
+            android:text="Register"/>
+    </RelativeLayout>
+
+</RelativeLayout>

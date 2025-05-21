@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Calender_Activity">
+<TextView
+    android:id="@+id/txt_date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:text="Date"
+    android:textSize="20dp"
+    android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/bt_selectdate"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt_date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Select Date"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/bt_selectdate"
+        android:text="Date"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/bt_selecttime"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Select Time"
+        android:textSize="15dp"/>
+</RelativeLayout>
